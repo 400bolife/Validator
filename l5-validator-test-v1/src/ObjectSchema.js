@@ -1,4 +1,4 @@
-class Validator {
+class ObjectSchema {
     object() {
       return {
         shape: (shapeObj) => {
@@ -29,5 +29,5 @@ class Validator {
     }
   }
 
-  export default Validator;
+  export default ObjectSchema;
   
